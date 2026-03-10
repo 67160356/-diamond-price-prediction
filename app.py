@@ -19,8 +19,9 @@ st.set_page_config(
 # ==========================================
 @st.cache_resource
 def load_model():
-    return joblib.load("diamond_model.pkl")
-
+   import pickle
+with open("diamond_model_v2.pkl", "rb") as f:
+    return pickle.load(f)
 model = load_model()
 
 # ==========================================
