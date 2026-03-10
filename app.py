@@ -20,7 +20,7 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     import pickle
-    with open("diamond_model_v2.pkl", "rb") as f:
+    with open("diamond_model_new.pkl", "rb") as f:
         return pickle.load(f)
 
 model = load_model()
