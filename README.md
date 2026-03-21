@@ -12,7 +12,7 @@
 - **Target:** price (USD)
 
 ## 🚀 Demo App
-[🔗 Streamlit App](YOUR_STREAMLIT_URL_HERE)
+[🔗 Streamlit App](https://dxysjb7aeh8ewca9kbgdxs.streamlit.app/)
 
 ## 📁 โครงสร้างไฟล์
 ```
